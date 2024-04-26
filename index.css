@@ -8,14 +8,16 @@
 }
 
 .header {
-    background-color: #490000;
-    padding: 4rem;
+    background-image: url(Img/hd.png);
+    background-repeat: no-repeat;
+       background-size: 100%;
+    padding: 5rem;
 }
 
 .header img{
-    width: 30%;
+   
     height: auto;
-    margin-top: -5rem;
+    margin-top: -2rem;
 }
 
 .session_1 {
