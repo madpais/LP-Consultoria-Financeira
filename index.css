@@ -82,34 +82,45 @@
 }
 
 
-
 /*********/
+
 .session_2 {
     padding: 2rem;
     background-color: gray;
+    display: flex;    
+}
+
+   
+.container_etapas {
     display: flex;
-    justify-content: center;
-}
-
-.session_2 .container_2 {
-    display: flex;
-    align-items: center;
-}
-
-.session_2 .container_2 div {
-    display: flex;
-    align-items: center;
-}
-
-.session_2 .container_2 div {
-    width: 50%;
-}
-
-.session_2 .imgEtapas{
-    width: 35rem;
-    border-radius: 2%;
+    flex-wrap: wrap;
+    
     
 }
 
 
-   
+.itemEtapas  {
+    margin-inline: 15rem;
+    border
+}
+
+/* .itemEtapas i {
+    display: flex;
+    align-items: center;
+    color: #fff;
+} */
+
+.containerImg {
+    margin-right: 5rem;
+}
+
+.session_2 .imgEtapas{
+    width: 30rem;
+    border-radius: 2%;    
+}
+
+.container_master {
+    display: flex;
+    
+}
+
