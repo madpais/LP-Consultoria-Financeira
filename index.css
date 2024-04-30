@@ -24,21 +24,26 @@
 
 .session_1 {
     background-color: black;
-    padding: 5rem;
+    padding: 8.5rem;
     text-align: center;
-    
+    background-image: url(Img/textura\ consultoria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .session_1 h1 {
-    color: #fff;
+    color: black;
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 3rem;
 }
 
 .session_1 h3 {
-    color: #fff;  
+    color: black;  
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
     
 }
 .session_1 a{
@@ -50,35 +55,56 @@
     font-size: 1.2rem;
     border-radius: 1rem;
     width: 10rem;
-    height: 2rem;
+    height: 3rem;
 }
 .session_1 a button:hover{
-    background-color: aqua;
+    background-color: black;
     transition: 0.8s;
     color: white;
     cursor: pointer;
 }
 
 
+
 /* seçãaooo dois divs */
 
 .section2{
-    padding: 10rem;
+    padding: 4rem;
     text-align: center;
     background-color: blueviolet;
 }
+
+.section2 h2{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
 .container{
     display: flex;
     padding: 3rem;
     margin-right: 10px;
-    
+   
 }
 
 .container2{
     display: flex;
     padding: 3rem;
     margin-right: 10px;
-    
+  
+}
+i{
+    font-size: 2rem;
+}
+h4{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.container p{
+    font-size: 1.2rem;
+}
+.container2{
+    font-size: 1.2rem;
 }
 
 
