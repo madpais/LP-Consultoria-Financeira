@@ -24,7 +24,8 @@
 
 .session_1 {
     background-color: black;
-    padding: 3rem;
+    padding: 5rem;
+    text-align: center;
     
 }
 
@@ -40,26 +41,47 @@
     margin-bottom: 2rem;
     
 }
+.session_1 a{
+    
+}
 
-.session_1 .container {
-    background-color: gray;
-    border-color: #fff;
-    padding: 2rem;
+
+.session_1 a button{
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+.session_1 a button:hover{
+    background-color: aqua;
+    transition: 0.8s;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* seçãaooo dois divs */
+
+.section2{
+    padding: 10rem;
+    text-align: center;
+    background-color: blueviolet;
+}
+.container{
     display: flex;
+    padding: 3rem;
+    margin-right: 10px;
+    
 }
 
-.session_1 .container div {
-    display:flex;
-    margin-inline: 2rem;
+.container2{
+    display: flex;
+    padding: 3rem;
+    margin-right: 10px;
+    
 }
 
-.session_1 p {
-    color: #fff;    
-}
 
-.session_1 i {
-    color: #fff;    
-}
 
 /*********/
 .session_2 {
