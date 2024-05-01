@@ -159,33 +159,55 @@ h4{
 /* footer */
 
 footer{
-    background-color: aquamarine;
-    padding: 3rem;
-    text-align: center;    
-}
-.final img{
-    width: 10rem;
+    background-color: blueviolet;
+    padding: 2rem;
 }
 
-.footer{
+footer img{
+    width: 10rem;
+    margin: 0 43%;
+}
+hr{
+    width: 20%;
+    height: 0.1em;
+    background-color: black;
+    margin: 0 38%;
+}
+
+.icons i{
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    margin-left: 5rem;
+    background-color: rgb(107, 39, 170);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.icons i:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+.fim{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 2rem;
+    justify-content: space-between;
 }
-.footer p{
-    text-align: left;
+.fim p{
+    font-size: 1.2rem;
+    margin-left: 5rem;
 }
-.li{
-    display: flex;
-    m
+.fim a{
+    margin-right: 5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration-line: underline;
 }
-#rodape{
-    
+.fim a:hover{
+    color: black;
+    transition: 0.8s
 }
-.icons{
-    text-align: end;
-}
+
+
+
 
 
 
