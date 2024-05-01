@@ -108,34 +108,55 @@ h4{
 }
 
 
-
 /*********/
+
 .session_2 {
     padding: 2rem;
     background-color: gray;
-    display: flex;
-    justify-content: center;
+    display: flex;    
 }
 
-.session_2 .container_2 {
+.container_master {
     display: flex;
+    width: 100%;
     align-items: center;
 }
 
-.session_2 .container_2 div {
+.container_etapas {
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+
+.itemEtapas_1, .itemEtapas_2, .itemEtapas_3, .itemEtapas_4 {
+    margin-inline: 15rem;
+    background-color:#fff;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    border-radius: 1rem  
+}
+
+
+/* .itemEtapas i {
     display: flex;
     align-items: center;
-}
+    color: #fff;
+} */
 
-.session_2 .container_2 div {
-    width: 50%;
-}
-
-.session_2 .imgEtapas{
-    width: 35rem;
-    border-radius: 2%;
+.containerImg {
     
 }
 
+.session_2 .imgEtapas{
+    width: 30rem;
+    border-radius: 2%;
+        
+}
 
-   
+
+
+
+
+
+
+
