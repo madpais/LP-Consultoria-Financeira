@@ -23,10 +23,10 @@
 }
 
 .session_1 {
-    background-color: black;
+    background-color: brown;
     padding: 8.5rem;
     text-align: center;
-    background-image: url(Img/textura\ consultoria.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -69,7 +69,7 @@
 /* seçãaooo dois divs */
 
 .section2{
-    padding: 4rem;
+    padding: 2.8rem;
     text-align: center;
     background-color: blueviolet;
 }
@@ -77,21 +77,24 @@
 .section2 h2{
     font-size: 2.5rem;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
-.container{
+.container, .container2{
     display: flex;
-    padding: 3rem;
-    margin-right: 10px;
-   
+    padding: 1rem;
+    margin-right: 10px;   
+}
+.div1{
+    background-color: rgba(115, 36, 189, 0.733);
+    margin-right: 0.5rem;
+    width: 100%;
+    height: 9rem;
+    padding: 1.2rem;
+    border-radius: 20px;
+    
 }
 
-.container2{
-    display: flex;
-    padding: 3rem;
-    margin-right: 10px;
-  
-}
 i{
     font-size: 2rem;
 }
@@ -153,8 +156,25 @@ h4{
         
 }
 
+/* footer */
 
+footer{
+    background-color: aquamarine;
+    padding: 3rem;
+}
+footer img{
+    width: 10rem;
+    text-align: center;
+}
 
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer p{
+    text-align: left;
+}
 
 
 
