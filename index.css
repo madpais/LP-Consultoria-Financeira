@@ -12,7 +12,7 @@
  background-color: black;
  background-image: url(Img/hd.png);
  background-repeat: no-repeat;
- background-size: 100%;
+ background-size: cover;
  padding: 5rem;
 }
 
