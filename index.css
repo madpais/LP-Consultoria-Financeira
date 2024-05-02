@@ -113,31 +113,6 @@ h4{
 
 /*********/
 
-/* footer */
-
-footer{
-    background-color: aquamarine;
-    padding: 3rem;
-}
-footer img{
-    width: 10rem;
-    text-align: center;
-}
-
-.footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.footer p{
-    text-align: left;
-}
- /********************ade*********/
- 
-
-
-/********************************/
-
 .session_2 {
     padding: 2rem;
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgb(201, 207, 207) 100%);
@@ -180,8 +155,31 @@ background-position: cover;
         
 }
 
+/* footer */
 
-.session_2Itens {
+footer{
+    background-color: aquamarine;
+    padding: 3rem;
+}
+footer img{
+    width: 10rem;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer p{
+    text-align: left;
+}
+ /********************ade*********/
+ 
+
+
+/********************************/
+.timeline {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +228,7 @@ p {
     font-size: 2rem;
 }
 
-.card-container /*div card container*/
+.card-container 
 {
     
     display: flex;
@@ -242,7 +240,7 @@ p {
     
 }
 
-.card /*card nome dado as 4 divs*/
+.card /*card nome dado aas*/
 {
     width: 300px;
     padding: 20px;
